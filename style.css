@@ -1,0 +1,14 @@
+body{background-color:#185C72; color:#FCFCFA; font-family: 'Lato', sans-serif;}
+.weather-wrapper{width:500px; margin:0 auto; display: block; padding:10px 10px 50px 10px; border:solid 1px #FCFCFA; border-radius:5px;  text-align: center; position: absolute; top:50%; transform: translateY(-50%); right:0; left:0;}
+.weather-wrapper h1{font-size:45px; color:#FCFCFA;}
+#lng, #lat{display: none;vertical-align: top; width:49%;}
+#goTo{margin-top:15px; display: block;}
+#current-icon{margin:25px 0; height:100px;}
+.hide #current-temperature-c{display: block;}
+.show #current-temperature-c{display: none;}
+.hide #current-temperature-f{display: none;}
+.show #current-temperature-f{display: block;}
+.temp{font-size: 20px; padding:5px 0;}
+.temp:hover{cursor:pointer; color:#848580;}
+#weather-summary{font-size: 20px; padding: 10px 0;}
+#weatherLocation{margin-bottom:10px;}
