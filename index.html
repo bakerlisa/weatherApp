@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx6OVmXfckg7nf83czbflgsLX2nYQq4xs&callback"
+  type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+	<!-- AIzaSyCmcbNPPfZz_GNNrwhHSkfIg7DiRfbH99s -->
+	<div class="weather-wrapper">
+		<h1>Weather App</h1>
+		<h2 id="weatherLocation"></h2>
+		<div class="temp hide">	
+			<div id="current-temperature-c"></div>
+			<div id="current-temperature-f"></div>
+		</div>	
+		<div id="weather-summary"></div>
+		<img src="" id="current-icon"/>
+		<div id="message">Loading...</div>	
+		<div id="lng"></div>			
+		<div id="lat"></div>
+		
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
