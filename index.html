@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Weather App</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx6OVmXfckg7nf83czbflgsLX2nYQq4xs&callback"
-  type="text/javascript"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- AIzaSyCmcbNPPfZz_GNNrwhHSkfIg7DiRfbH99s -->
-	<div class="weather-wrapper">
-		<h1>Weather App</h1>
-		<h2 id="weatherLocation"></h2>
-		<div class="temp hide">	
-			<div id="current-temperature-c"></div>
-			<div id="current-temperature-f"></div>
-		</div>	
-		<div id="weather-summary"></div>
-		<img src="" id="current-icon"/>
-		<div id="message">Loading...</div>	
-		<div id="lng"></div>			
-		<div id="lat"></div>
-		
-	</div>
-	<script type="text/javascript" src="script.js"></script>
+    <main>
+        <div class="container">
+    <img src="" class="icon"/>
+    <h1>Pocatello, Idaho</h1>
+    <p>Daily Weather Forecast: <span class="summary"></span></p> 
+    <p class="subtext"></p>
+    <p class="type">Category: <span></span></p>    
+    <p class="severity">Weather Serenity <span></span></p>
+    <div class="high-low">
+        <span><span class="up">↑</span>High: <span class="high"></span></span>
+        <span><span class="down">↓</span>Low: <span class="low"></span></span>
+    </div>
+</div>
+</main>
+    <script src="script.js"></script>
 </body>
 </html>
